@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/* CSS Document */
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+body {
+  padding: 10px;
+}
+
+#main {
+  text-align: center;
+  border: 1px solid #000000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: .5em;
+}
+
+.topButtons {
+    width: 100%;
+    margin: 1% 0%;
+}
+
+.buttonSyle {
+    width: 100px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    margin-bottom: 10px;
+    margin: 0% 0.5%;
+}
+
+#addDayButton{
+  background-color: green;
+}
+
+#pimpID {
+    background: linear-gradient(to right, red 5%, green 50%, blue 100%);
+}
+
+#attendance {
+  border-collapse: collapse;
+  width: 100%;
+  position: relative;
+}
+
+#attendance th, td {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+tr{
+  background-size: 6%;
+  background-position: bottom;
+}
+
+#attendance tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#attendance tr:hover {
+  background-color: #ddd;
+}
+
+#header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #f7f59d;
+    font-weight: bold;
+}
+
+td {
+    min-width: 150px;
+}
+
+input {
+    width: 45px;
+    font-size: 14px;
+}
+
+.hoursDay {
+  width: 35px;
+}
+
+.bottomStyleB {
+    padding: 6px;
+    width: 300px;
+    float: left;
+    margin: 1% 1% 0% 0%;
+}
+
+#addStudentTD {
+  background-color: green;
+}
+
+#deleteStudentTD {
+    background-color: red;
+}
+
+#newStudentInput, #deleteStudentInput {
+    width: 150px;
+    height: 22px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+#addStudentButton, #deleteStudentButton {
+    height: 40px;
+    font-size: 15px;
+}

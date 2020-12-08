@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cs/style.css">
+  <title>Attendance</title>
+</head>
+
+<body>
+  <h1>Web Development Lessons</h1>
+
+  <div class="topButtons">
+    <button id="addDayButton" class="buttonSyle" onclick="addDay()">Add day</button>
+    <button id="pimpID" class="buttonSyle" onclick="putShadow()">R&nbsp;&nbsp;&nbsp; G &nbsp;&nbsp;&nbsp;B</button>
+  </div>
+
+  <table id="attendance">
+    <tr class="student">
+      <td id="header">Student's Name</th>
+      <td id="header">classes Day 1 <input min="0" type="number" class="hoursDay"></td>
+      <td id="header">classes Day 2 <input min="0" type="number" class="hoursDay"></td>
+      <td id="header">classes Day 3 <input min="0" type="number" class="hoursDay"></td>
+      <td id="header">Total in %</td>
+    </tr>
+
+    <tr class="student">
+      <td class="studentName">Kruti</td>
+      <td><input min="0" type="number" class="day1"></td>
+      <td><input min="0" type="number" class="day2"></td>
+      <td><input min="0" type="number" class="day3"></td>
+      <td class="total">0%</td>
+    </tr>
+
+    <tr class="student">
+      <td class="studentName">Robert</td>
+      <td><input min="0" type="number" class="day1"></td>
+      <td><input min="0" type="number" class="day2"></td>
+      <td><input min="0" type="number" class="day3"></td>
+      <td class="total">0%</td>
+    </tr>
+
+    <tr class="student">
+      <td class="studentName">Racel</td>
+      <td><input min="0" type="number" class="day1"></td>
+      <td><input min="0" type="number" class="day2"></td>
+      <td><input min="0" type="number" class="day3"></td>
+      <td class="total">0%</td>
+    </tr>
+
+    <tr class="student">
+      <td class="studentName">Max</td>
+      <td><input min="0" type="number" class="day1"></td>
+      <td><input min="0" type="number" class="day2"></td>
+      <td><input min="0" type="number" class="day3"></td>
+      <td class="total">0%</td>
+    </tr>
+
+    <tr class="student">
+      <td class="studentName">Mark</td>
+      <td><input min="0" type="number" class="day1"></td>
+      <td><input min="0" type="number" class="day2"></td>
+      <td><input min="0" type="number" class="day3"></td>
+      <td class="total">0%</td>
+    </tr>
+
+    <tr class="student">
+      <td class="studentName">Monk</td>
+      <td><input min="0" type="number" class="day1"></td>
+      <td><input min="0" type="number" class="day2"></td>
+      <td><input min="0" type="number" class="day3"></td>
+      <td class="total">0%</td>
+    </tr>
+  </table>
+
+  <div id="addStudentTD" class="bottomStyleB">
+    <button id="addStudentButton" onclick="addStudent()">Add student</button>
+    <input type="text" value="" id="newStudentInput">
+  </div>
+  <div id="deleteStudentTD" class="bottomStyleB">
+    <button id="deleteStudentButton" onclick="deleteStudent()">Delete student</button>
+    <input type="text" value="" id="deleteStudentInput">
+  </div>
+
+
+  <footer>
+    <p id="cpr year"></p>
+  </footer>
+
+  <script src="js/js.js"></script>
+</body>
+
+</html>
